@@ -1,4 +1,4 @@
-module github.com/parsyl/parquet
+module github.com/nickoz5/parquet-go
 
 go 1.13
 
@@ -9,5 +9,3 @@ require (
 	github.com/stretchr/testify v1.7.0
 	github.com/valyala/bytebufferpool v1.0.0
 )
-
-replace github.com/parsyl/parquet => github.com/nickoz5/parquet-go
