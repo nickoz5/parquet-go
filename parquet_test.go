@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/parsyl/parquet"
-	sch "github.com/parsyl/parquet/schema"
+	"github.com/nickoz5/parquet-go"
+	sch "github.com/nickoz5/parquet-go/schema"
 	"github.com/stretchr/testify/assert"
 )
 

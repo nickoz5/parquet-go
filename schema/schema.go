@@ -35,6 +35,7 @@ const (
 	Type_DOUBLE               Type = 5
 	Type_BYTE_ARRAY           Type = 6
 	Type_FIXED_LEN_BYTE_ARRAY Type = 7
+	Type_STRING               Type = 8
 )
 
 func (p Type) String() string {
@@ -53,6 +54,8 @@ func (p Type) String() string {
 		return "DOUBLE"
 	case Type_BYTE_ARRAY:
 		return "BYTE_ARRAY"
+	case Type_STRING:
+		return "STRING"
 	case Type_FIXED_LEN_BYTE_ARRAY:
 		return "FIXED_LEN_BYTE_ARRAY"
 	}
@@ -75,6 +78,8 @@ func TypeFromString(s string) (Type, error) {
 		return Type_DOUBLE, nil
 	case "BYTE_ARRAY":
 		return Type_BYTE_ARRAY, nil
+	case "STRING":
+		return Type_STRING, nil
 	case "FIXED_LEN_BYTE_ARRAY":
 		return Type_FIXED_LEN_BYTE_ARRAY, nil
 	}
@@ -140,6 +145,7 @@ const (
 	ConvertedType_JSON             ConvertedType = 19
 	ConvertedType_BSON             ConvertedType = 20
 	ConvertedType_INTERVAL         ConvertedType = 21
+	ConvertedType_STRING           ConvertedType = 22
 )
 
 func (p ConvertedType) String() string {
@@ -158,6 +164,8 @@ func (p ConvertedType) String() string {
 		return "DECIMAL"
 	case ConvertedType_DATE:
 		return "DATE"
+	case ConvertedType_STRING:
+		return "STRING"
 	case ConvertedType_TIME_MILLIS:
 		return "TIME_MILLIS"
 	case ConvertedType_TIME_MICROS:
@@ -238,6 +246,8 @@ func ConvertedTypeFromString(s string) (ConvertedType, error) {
 		return ConvertedType_BSON, nil
 	case "INTERVAL":
 		return ConvertedType_INTERVAL, nil
+	case "STRING":
+		return ConvertedType_STRING, nil
 	}
 	return ConvertedType(0), fmt.Errorf("not a valid ConvertedType string")
 }

@@ -9,8 +9,8 @@ import (
 
 	"go/ast"
 
-	"github.com/parsyl/parquet/cmd/parquetgen/fields"
-	flds "github.com/parsyl/parquet/cmd/parquetgen/fields"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/fields"
+	flds "github.com/nickoz5/parquet-go/cmd/parquetgen/fields"
 )
 
 const letters = "abcdefghijklmnopqrstuvwxyz"

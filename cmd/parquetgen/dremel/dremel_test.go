@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/parsyl/parquet/cmd/parquetgen/dremel/testcases/doc"
-	"github.com/parsyl/parquet/cmd/parquetgen/dremel/testcases/person"
-	"github.com/parsyl/parquet/cmd/parquetgen/dremel/testcases/repetition"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/dremel/testcases/doc"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/dremel/testcases/person"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/dremel/testcases/repetition"
 	"github.com/stretchr/testify/assert"
 )
 

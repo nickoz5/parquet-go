@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/parsyl/parquet/cmd/parquetgen/cases"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/cases"
 	"github.com/stretchr/testify/assert"
 )
 

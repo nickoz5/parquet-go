@@ -5,8 +5,8 @@ import (
 	"go/format"
 	"testing"
 
-	"github.com/parsyl/parquet/cmd/parquetgen/dremel"
-	"github.com/parsyl/parquet/cmd/parquetgen/fields"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/dremel"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/fields"
 	"github.com/stretchr/testify/assert"
 )
 

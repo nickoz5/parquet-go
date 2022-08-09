@@ -7,11 +7,11 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/parsyl/parquet"
-	"github.com/parsyl/parquet/cmd/parquetgen/fields"
-	"github.com/parsyl/parquet/cmd/parquetgen/parse"
-	"github.com/parsyl/parquet/cmd/parquetgen/structs"
-	sch "github.com/parsyl/parquet/schema"
+	"github.com/nickoz5/parquet-go"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/fields"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/parse"
+	"github.com/nickoz5/parquet-go/cmd/parquetgen/structs"
+	sch "github.com/nickoz5/parquet-go/schema"
 )
 
 var (
