@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/parsyl/parquet/internal/bitpack"
+	"github.com/nickoz5/parquet-go/internal/bitpack"
 )
 
 const (

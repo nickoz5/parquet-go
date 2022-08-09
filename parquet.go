@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	sch "github.com/parsyl/parquet/schema"
+	sch "github.com/nickoz5/parquet-go/schema"
 )
 
 // Field holds the type information for a parquet column

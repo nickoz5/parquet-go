@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/bxcodec/faker/v3"
-	"github.com/parsyl/parquet/performance/base"
-	"github.com/parsyl/parquet/performance/message"
+	"github.com/nickoz5/parquet-go/performance/base"
+	"github.com/nickoz5/parquet-go/performance/message"
 )
 
 const (
